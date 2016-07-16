@@ -1,0 +1,256 @@
+body {
+	overflow: hidden;
+}
+* {
+	font-family: arial, sans-serif;
+	font-size: 13px;
+}
+.container {
+	width: 100%
+	height: 100%;
+}
+.header1 {
+	height: 59px;
+	background: #f1f1f1;
+	left: -2px;
+	top: 0;
+	position: absolute;
+	width: 100%;
+	border-bottom: 1px solid #f1f1f1;
+}
+.top_bar {
+	background-color: #f1f1f1;
+	border-bottom: 1px solid #666;
+	border-color: #e5e5e5;
+}
+.header1left {
+	float: left;
+	margin-left: 17px;
+	margin-top: 2px;
+	width: auto;
+	max-width: 784px;
+}
+#logo {
+	height: 33px;
+	margin-top: 10px;
+	vertical-align: middle;
+	padding-right: 2px;
+}
+#search_bar {
+	display: inline-block;
+    width: 638px;
+    max-width: 650px;
+    margin-left: 4px;
+    margin-top: -2px;
+}
+.box {
+	width: 580px;
+	height: 36px;
+	border-radius: initial;
+	border: 1px solid #d9d9d9;
+	padding-left: 8px;
+	margin-left: 8px;
+	display: inline-block;
+	margin-top: 9px;
+	text-align: left;
+	vertical-align: middle;
+	max-width: 600px;
+	font-size: 16px;
+	color: #000;
+}
+.box:focus {
+	border: 1px solid #4d90fe;
+}
+.btnbg{
+	float: right;
+	margin-top: -40px;
+	height: 40px;
+	width: 40px;
+	min-width: 38px !important;
+	background-color: #4285f4;
+	border: none;
+}
+.btn {
+	display: inline-block;
+	border: 0;
+	background-image: url("../images/nav_logo.png");
+	background-position: -107px -55px;
+	height: 24px;
+	width: 24px;
+	margin: 7px auto;
+}
+.header1right {
+	float: right;
+	margin-right: 35px;
+	min-width: 135px;
+	position: relative;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.nav{
+	min-width:120px;
+	min-height:30px;
+	display: flex;
+}
+li {
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+a {
+	color: #000;
+	font-size:13px;
+	font-family: arial;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+.apps {
+	background-image: url("../images/sprite.png");
+	background-position: -69px -854px;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	opacity: .55;
+}
+.bell {
+	background-image: url("../images/sprite.png");
+	background-position: -69px -69px;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	opacity: .55;
+}
+.divide {
+	width: 100%;
+}
+.header2 {
+	height: 59px;
+	left: -2px;
+	margin-top: 60px;
+	position: relative;
+	width: 100%;
+	border-bottom: 1px solid #f1f1f1;
+}
+.header2left {
+	height: 59px;
+	width: 645px;
+	display: inline-block;
+	float: left;
+}
+.search_nav {
+	height: 100%;
+	float: right;
+}
+.search_nav li {
+	display: inline-block;
+	padding-top: 8px;
+	padding-right: 7px;
+	padding-left: 7px;
+}
+.search_nav a {
+	vertical-align: middle;
+	padding: 9px;
+	color: #757575;
+}
+#All {
+	padding-top: 20px;
+	color: #4285f4;
+	font-weight: bold;
+	border-bottom: 3px solid #4285f4;
+	padding-bottom: 21px;
+}
+.search_nav a:hover {
+	color: #000;
+	text-decoration: none;
+}
+.header2right {
+	height: 59px;
+	float: right;
+	padding-right: 30px;
+}
+.header2_nav {
+	height: 59px;
+	margin-top: 0;
+}
+.header2_nav li {
+	padding-right: 0;
+	padding-left: 0;
+}
+.priv_button {
+	background-image: url("../images/nav_logo.png");
+	background-position: -14px -328px;
+	position: absolute;
+	height: 14px;
+	width: 14px;
+	opacity: 0.667;
+	margin: 5px 5px 5px 12px;
+}
+.btn1_bg {
+	margin-top: 15px;
+	background-color: rgba(0,0,0,.13);
+	border: 1px solid #ccc;
+	height: 28px;
+	width: 40px;
+	margin-right: -5px;
+	border-radius: 3px;
+}
+.hide_priv {
+	background-image: url("../images/nav_logo.png");
+	background-position: -45px -328px;
+	position: absolute;
+	height: 14px;
+	width: 14px;
+	opacity: 0.667;
+	margin: 5px 5px 5px 12px;
+}
+.btn2_bg {
+	margin-top: 15px;
+	background-color: #eee;
+	border: 1px solid #ccc;
+	height: 28px;
+	width: 40px;
+	margin-right: 5px;
+	border-radius: 0 3px 3px 0;
+	border-left: 0px #eee;
+}
+.settings  {
+	background-image: url("../images/nav_logo.png");
+	background-position: -42px -259px;
+	position: absolute;
+	height: 17px;
+	width: 17px;
+	opacity: 0.667;
+	margin: 5px 5px 5px 26px;
+}
+.btn3_bg {
+	margin-top: 15px;
+	background-color: #eee;
+	border: 1px solid #ccc;
+	height: 28px;
+	width: 72px;
+	border-radius: 3px;
+	margin-left: 5px;
+}
+
+.footnav {
+	width: 100%;
+	min-width: 980px;
+	background-color: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	line-height: 40px;
+	position: absolute;
+	bottom:0;
+}
+.footer {
+	display: inline-block;
+	position: relative;
+	vertical-align: middle;
+}
+footer a {
+	margin-right: 15px;
+	color: #757575;
+}

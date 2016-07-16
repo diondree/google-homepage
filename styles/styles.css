@@ -39,7 +39,7 @@ a:hover {
 	position: absolute;
 	width: 30px;
 	height: 30px;
-
+	opacity: .55;
 }
 .bell {
 	background-image: url("../images/sprite.png");
@@ -47,6 +47,7 @@ a:hover {
 	position: absolute;
 	width: 30px;
 	height: 30px;
+	opacity: .55;
 }
 
 .search {
